@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Planaris
+Comment=Hierarhical ToDo list
+Exec=/usr/bin/planaris
+Categories=Office;

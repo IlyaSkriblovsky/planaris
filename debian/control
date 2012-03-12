@@ -1,0 +1,13 @@
+Source: planaris
+Section: user/office
+Priority: extra
+Maintainer: Ilya Skriblovsky <Ilya.Skriblovsky@gmail.com>
+Build-Depends: debhelper (>= 5), libgtk2.0-dev, libhildon1-dev, libhildonmime-dev, libcurl3-openssl-dev | libcurl4-openssl-dev, vala (>= 0.7.4) | valac, libsqlite3-dev
+Standards-Version: 2.0
+
+Package: planaris
+Section: user/office
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Hierarhical todo list with online sync
+XB-Maemo-Display-Name: Planaris

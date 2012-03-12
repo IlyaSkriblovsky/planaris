@@ -1,0 +1,216 @@
+# Russian translations for PACKAGE package.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ilya Skriblovsky <Ilya.Skriblovsky@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-24 15:53+0300\n"
+"PO-Revision-Date: 2010-11-24 15:04+0300\n"
+"Last-Translator: Ilya Skriblovsky <Ilya.Skriblovsky@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: Loader.vala:27 Saver.vala:26
+msgid "Cannot open DB"
+msgstr "Не могу открыть базу данных"
+
+#: Loader.vala:231
+msgid "Invalid command: %s"
+msgstr "Неизвестная команда: %s"
+
+#: LoginDialog.vala:13 LoginDialog.vala:34 LoginDialog.vala:53
+msgid "Login"
+msgstr "Логин"
+
+#: LoginDialog.vala:23
+msgid ""
+"In order to use online synchronization, you must register at planaris web "
+"site and specify your login and password:"
+msgstr ""
+"Чтобы воспользоваться онлайн-синхронизацией, вы должны зарегистрироваться на "
+"веб-сайте Планариса и указать ниже свой логин и пароль:"
+
+#: LoginDialog.vala:41 LoginDialog.vala:59
+msgid "Password"
+msgstr "Пароль"
+
+#: Main.vala:27 Main.vala:131
+msgid "Planaris"
+msgstr "Планарис"
+
+#: Main.vala:85
+msgid "Please select plan"
+msgstr "Выберите план"
+
+#: Main.vala:132
+msgid "Hello, World!"
+msgstr "Привет, мир!"
+
+#: Main.vala:152
+msgid "Cannot load tasks: %s"
+msgstr "Ошибка при загрузке задач: %s"
+
+#: Main.vala:181
+msgid "Cannot save tasks: %s"
+msgstr "Ошибка при сохранении задач: %s"
+
+#: PlanSelectionWindow.vala:26 PlanSelectionWindow.vala:33
+msgid "Plans"
+msgstr "Планы"
+
+#: PlanSelectionWindow.vala:53 PlanSelectionWindow.vala:134
+msgid "New Plan"
+msgstr "Новый план"
+
+#: PlanSelectionWindow.vala:53
+msgid "Create new plan"
+msgstr "Создать новый план"
+
+#: PlanSelectionWindow.vala:59
+msgid "Delete Plan"
+msgstr "Удалить план"
+
+#: PlanSelectionWindow.vala:59
+msgid "Delete selected plan"
+msgstr "Удалить выбранный план"
+
+#: PlanSelectionWindow.vala:81
+msgid "Sync"
+msgstr "Синхронизация"
+
+#: PlanSelectionWindow.vala:81
+msgid "Online synchronization"
+msgstr "Онлайн-синхронизация"
+
+#: PlanSelectionWindow.vala:141 PlanSelectionWindow.vala:145
+msgid "Plan name"
+msgstr "Название плана"
+
+#: PlanSelectionWindow.vala:199
+msgid "Cannot sync tasks: %s"
+msgstr "Ошибка при сохранении задач: %s"
+
+#: PlanWidget.vala:28 PlanWidget.vala:73
+msgid "Tasks"
+msgstr "Задачи"
+
+#: PlanWidget.vala:114 PlanWidget.vala:242
+msgid "New Task"
+msgstr "Новая задача"
+
+#: PlanWidget.vala:114
+msgid "Create new subtask of selected task"
+msgstr "Создать новую подзадачу к выделенной задаче"
+
+#: PlanWidget.vala:120
+msgid "New Toplevel Task"
+msgstr "Новая корневая задача"
+
+#: PlanWidget.vala:120
+msgid "Create new toplevel task"
+msgstr "Создать новую задачу верхнего уровня"
+
+#: PlanWidget.vala:126
+msgid "Undo"
+msgstr "Отменить"
+
+#: PlanWidget.vala:126
+msgid "Undo last action"
+msgstr "Отменить последнее действие"
+
+#: PlanWidget.vala:132
+msgid "Redo"
+msgstr "Повторить"
+
+#: PlanWidget.vala:132
+msgid "Redo canceled action"
+msgstr "Повторить последнее действие"
+
+#: PlanWidget.vala:138
+msgid "Hide done"
+msgstr "Скрыть выполненные"
+
+#: PlanWidget.vala:138
+msgid "Hide checked actions and action with 100% progress"
+msgstr "Скрыть отмеченные задачи и задачи со стопроцентным прогрессом"
+
+#: Saver.vala:40
+msgid "Cannot write to DB"
+msgstr "Ошибка при попытке записи в БД"
+
+#: Saver.vala:227
+msgid "Unknown command"
+msgstr "Неизвестная команда"
+
+#: Sync.vala:36
+msgid "Sync done\n"
+msgstr "Синхронизация завершена\n"
+
+#: Sync.vala:38
+msgid "Error: %s\n"
+msgstr "Ошибка: %s\n"
+
+#: Sync.vala:124
+msgid "Curl failed"
+msgstr "Ошибка Curl"
+
+#: Sync.vala:128
+msgid "Cannot save plan: %s"
+msgstr "Ошибка при сохранении плана: %s"
+
+#: Sync.vala:132
+msgid "Cannot load plan: %s"
+msgstr "Ошибка при загрузке плана: %s"
+
+#: Sync.vala:151
+msgid "Syncing..."
+msgstr "Синхронизация..."
+
+#: TaskDialog.vala:43
+msgid "Modify Task"
+msgstr "Изменить задачу"
+
+#: TaskDialog.vala:63 TaskDialog.vala:72
+msgid "Title"
+msgstr "Заголовок"
+
+#: TaskDialog.vala:82 TaskDialog.vala:87
+msgid "Auto"
+msgstr "Авто"
+
+#: TaskDialog.vala:83 TaskDialog.vala:89
+msgid "Check"
+msgstr "Галка"
+
+#: TaskDialog.vala:84 TaskDialog.vala:91
+msgid "Progress"
+msgstr "Прогресс"
+
+#: TaskDialog.vala:110 TaskDialog.vala:123
+msgid "Done"
+msgstr "Готово"
+
+#: TaskDialog.vala:116 TaskDialog.vala:124 TaskDialog.vala:220
+#: TaskDialog.vala:222
+msgid "%s done"
+msgstr "%s готово"
+
+#: TaskDialog.vala:121 TaskDialog.vala:125
+msgid "Calculate progress from childs"
+msgstr "Вычислить прогресс исходя из подзадач"
+
+#: TaskDialog.vala:145 TaskDialog.vala:156
+msgid "Type"
+msgstr "Тип"
+
+#: TaskDialog.vala:305
+msgid "Task Progress"
+msgstr "Прогресс задачи"

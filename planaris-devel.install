@@ -1,0 +1,8 @@
+[install]
+catalogues = extras-devel
+package = planaris
+
+[extras-devel]
+name = maemo Extras-Devel
+uri = http://repository.maemo.org/extras-devel/
+components = free non-free

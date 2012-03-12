@@ -1,0 +1,29 @@
+planaris (0.3) unstable; urgency=low
+
+  * Russian translation
+
+ -- Ilya Skriblovsky <Ilya.Skriblovsky@gmail.com>  24 Nov 2010 16:07:00 +0300
+
+planaris (0.2) unstable; urgency=low
+
+  * Toggle button for hiding done tasks
+
+ -- Ilya Skriblovsky <Ilya.Skriblovsky@gmail.com>  23 Nov 2010 20:45:00 +0300
+
+planaris (0.1.2) unstable; urgency=low
+
+  * Compiler's optimization enabled
+
+ -- Ilya Skriblovsky <Ilya.Skriblovsky@gmail.com>  16 Nov 2010 17:00:00 +0300
+
+planaris (0.1.1) unstable; urgency=low
+
+  * Desktop file for maemo added
+
+ -- Ilya Skriblovsky <Ilya.Skriblovsky@gmail.com>  16 Nov 2010 17:00:00 +0300
+
+planaris (0.1) unstable; urgency=low
+
+  * Initial public release
+
+ -- Ilya Skriblovsky <Ilya.Skriblovsky@gmail.com>  16 Nov 2010 15:21:00 +0300

@@ -1,0 +1,12 @@
+table.register th
+{
+    text-align: right;
+}
+
+
+.error
+{
+    border: 2px solid #800000;
+    color: red;
+    padding: 10px;
+}

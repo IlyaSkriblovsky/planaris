@@ -1,0 +1,32 @@
+#!/bin/sh
+
+#
+# This script is used to guess OS type and set right defines to make
+#
+# Note: this script will not help you in building for Win32. Build manually:
+#   $ mingw32-make WINDOWS=1
+#
+# $Id$
+
+if [ "x$OSSO_PRODUCT_RELEASE_NAME" = "xMaemo 5" ]; then
+    OS=FREMANTLE;
+elif [ "x$OSSO_PRODUCT_RELEASE_NAME" = "xOS 2008" ]; then
+    OS=DIABLO;
+elif [ "x$OSSO_PRODUCT_RELEASE_NAME" = "x" ]; then
+    if [ -e /etc/maemo_version ]; then
+        MAEMO_VERSION=`cat /etc/maemo_version | awk '{ print $2 }'`
+        if [ "x$MAEMO_VERSION" = "xDiablo" ]; then
+            OS=DIABLO;
+        elif [ "x$MAEMO_VERSION" = "xFremantle" ]; then
+            OS=FREMANTLE;
+        fi
+    fi
+fi
+
+if [ -z $OS ]; then
+    echo "Your OS doesn't seems to be Maemo. Building for desktop Linux."
+    make $*
+else
+    echo "Your OS seems to be Maemo $OS"
+    make $OS=1 $*
+fi
